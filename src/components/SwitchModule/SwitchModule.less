@@ -1,0 +1,37 @@
+
+.switchModule {
+  margin: 100px 0 10px;
+  font-size: 20px;
+  .active.item {
+    color: #ffc02e;
+    background-color: #ffdc73;
+    font-weight: 600;
+    .item-icon:not(.color-free):before {
+      color: #ffc02e;
+    }
+  }
+
+  .item {
+    border: 1px solid #B9C2C7;;
+    border-radius: 6px;
+    text-align: center;
+    min-height: 110px;
+    margin-bottom: 23px;
+    display: block;
+    line-height: 1;
+    cursor: pointer;
+
+    .item-icon {
+      display: block;
+      font-size: 68px;
+      padding: 5px 21px 0;
+    }
+
+    .item-text {
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
